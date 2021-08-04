@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var data = ["sunil", "type", "script"];
+data.push("malika");
+data.push(10);
+var data1 = ["sunil", "type", "script", 10];
+data1.push(100);
+data1[6] = 200;
+data1[5] = 500;
+var arr = ["sunil", "type", "script"];
+arr.push("salman");
+console.log(arr);
